@@ -1,3 +1,8 @@
+# TODO:
+# - not compatible with 2.0 version:
+#   file /usr/lib/python2.4/site-packages/_sqlite.so from install of python-sqlite1-1.1.6-0.1 conflicts with file from package python-sqlite-1.1.1-3
+#   file /usr/lib/python2.4/site-packages/sqlite/__init__.pyc from install of python-sqlite1-1.1.6-0.1 conflicts with file from package python-sqlite-1.1.1-3
+#   file /usr/lib/python2.4/site-packages/sqlite/__init__.pyo from install of python-sqlite1-1.1.6-0.1 conflicts with file from package python-sqlite-1.1.1-3
 
 %define		module	sqlite
 
