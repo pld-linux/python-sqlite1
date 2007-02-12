@@ -7,7 +7,7 @@
 %define		module	sqlite
 
 Summary:	A DB API v1.0 compatible interface to SQLite
-Summary(pl):	Interfejs do SQLite kompatybilny z DB API v1.0
+Summary(pl.UTF-8):   Interfejs do SQLite kompatybilny z DB API v1.0
 Name:		python-%{module}1
 Version:	1.1.7
 Release:	2
@@ -29,12 +29,12 @@ is a result of SQLite's internal representation of data, however it
 still may be possible to return data in the type specified by the
 table definitions.
 
-%description -l pl
-Ten pakiet zawiera modu³ rozszerzenia dla osadzalnej relacyjnej bazy
-danych SQLite. Próbuje on byæ w zgodzie ze specyfikacj± Python DB-API
-v2 na tyle, na ile to mo¿liwe. Jednym problemem jest to, ¿e SQLite
-zwraca wszystko jako tekst. Jest to wynik wewnêtrznej reprezentacji
-danych przez SQLite; mimo to nadal jest mo¿liwe zwracanie danych typu
+%description -l pl.UTF-8
+Ten pakiet zawiera moduÅ‚ rozszerzenia dla osadzalnej relacyjnej bazy
+danych SQLite. PrÃ³buje on byÄ‡ w zgodzie ze specyfikacjÄ… Python DB-API
+v2 na tyle, na ile to moÅ¼liwe. Jednym problemem jest to, Å¼e SQLite
+zwraca wszystko jako tekst. Jest to wynik wewnÄ™trznej reprezentacji
+danych przez SQLite; mimo to nadal jest moÅ¼liwe zwracanie danych typu
 podanego w definicji tabeli.
 
 %prep
