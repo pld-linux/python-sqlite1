@@ -10,7 +10,7 @@ Summary:	A DB API v1.0 compatible interface to SQLite
 Summary(pl.UTF-8):	Interfejs do SQLite kompatybilny z DB API v1.0
 Name:		python-%{module}1
 Version:	1.1.7
-Release:	4
+Release:	5
 License:	Free
 Group:		Development/Languages/Python
 Source0:	http://initd.org/pub/software/pysqlite/releases/1.1/%{version}/pysqlite-%{version}.tar.gz
