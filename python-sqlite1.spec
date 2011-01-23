@@ -18,6 +18,8 @@ Source0:	http://initd.org/pub/software/pysqlite/releases/1.1/%{version}/pysqlite
 URL:		http://www.pysqlite.org/
 %pyrequires_eq	python-modules
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildRequires:	sqlite3-devel
 Provides:	python(sqlite)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
