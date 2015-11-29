@@ -16,6 +16,7 @@ Group:		Development/Languages/Python
 Source0:	http://initd.org/pub/software/pysqlite/releases/1.1/%{version}/pysqlite-%{version}.tar.gz
 # Source0-md5:	edbed4ccfdc114754c73081e79163be1
 URL:		http://www.pysqlite.org/
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
